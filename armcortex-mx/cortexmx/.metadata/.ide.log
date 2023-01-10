@@ -298,3 +298,28 @@
 2023-01-09 16:53:56,946 [INFO] ApiDb:447 - User favorites MCUs=[]
 2023-01-09 16:53:56,963 [INFO] ApiDb:443 - Save user favorites file /Users/harinit/.stm32cubeide/favorites.boards.txt: 0 item(s)
 2023-01-09 16:53:56,963 [INFO] ApiDb:447 - User favorites Boards=[]
+2023-01-10 12:30:22,444 [INFO] MainUpdater:2768 - connection check result : 10
+2023-01-10 12:30:22,733 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2023-01-10 12:30:22,742 [INFO] MultiScanPanel:195 - Auto-refresh data requested => check proxy status ongoing
+2023-01-10 12:30:22,744 [INFO] FinderPluginLoader:92 - Searching for filters in installed packs
+2023-01-10 12:30:23,694 [INFO] LoadUrlFilesThread:177 - End of LoadServerUrlFiles without Thread
+2023-01-10 12:30:23,715 [INFO] DetailPanel:339 - Set advertising image to /Users/harinit/STM32Cube/Repository//en.Prom_NBSTM32U50921.jpg
+2023-01-10 12:30:24,102 [INFO] MultiScanPanel:778 - Auto Refresh Data is not needed
+2023-01-10 12:30:31,030 [INFO] MultiScanPanel:195 - Auto-refresh data requested => check proxy status ongoing
+2023-01-10 12:30:31,196 [INFO] LoadUrlFilesThread:177 - End of LoadServerUrlFiles without Thread
+2023-01-10 12:30:31,197 [INFO] DetailPanel:339 - Set advertising image to /Users/harinit/STM32Cube/Repository//en.Prom_NBSTM32U50921.jpg
+2023-01-10 12:30:31,251 [INFO] MultiScanPanel:778 - Auto Refresh Data is not needed
+2023-01-10 12:31:52,505 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2023-01-10 12:31:52,521 [INFO] ApiDb:443 - Save user favorites file /Users/harinit/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-01-10 12:31:52,524 [INFO] ApiDb:447 - User favorites MCUs=[]
+2023-01-10 12:31:52,536 [INFO] ApiDb:443 - Save user favorites file /Users/harinit/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2023-01-10 12:31:52,536 [INFO] ApiDb:447 - User favorites Boards=[]
+2023-01-10 12:36:18,198 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2023-01-10 12:37:22,695 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2023-01-10 12:38:00,518 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2023-01-10 12:39:02,585 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2023-01-10 12:39:06,027 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2023-01-10 12:39:07,841 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2023-01-10 12:39:12,473 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2023-01-10 12:39:13,873 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
+2023-01-10 12:39:14,955 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
