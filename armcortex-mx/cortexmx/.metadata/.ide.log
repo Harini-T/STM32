@@ -323,3 +323,19 @@
 2023-01-10 12:39:12,473 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
 2023-01-10 12:39:13,873 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
 2023-01-10 12:39:14,955 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2023-01-10 15:20:21,370 [INFO] MainUpdater:2768 - connection check result : 10
+2023-01-10 15:20:21,634 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2023-01-10 15:20:21,641 [INFO] MultiScanPanel:195 - Auto-refresh data requested => check proxy status ongoing
+2023-01-10 15:20:21,643 [INFO] FinderPluginLoader:92 - Searching for filters in installed packs
+2023-01-10 15:20:22,668 [INFO] LoadUrlFilesThread:177 - End of LoadServerUrlFiles without Thread
+2023-01-10 15:20:22,670 [INFO] DetailPanel:339 - Set advertising image to /Users/harinit/STM32Cube/Repository//en.Prom_NBSTM32U50921.jpg
+2023-01-10 15:20:23,141 [INFO] MultiScanPanel:778 - Auto Refresh Data is not needed
+2023-01-10 15:20:31,485 [INFO] MultiScanPanel:195 - Auto-refresh data requested => check proxy status ongoing
+2023-01-10 15:20:31,593 [INFO] LoadUrlFilesThread:177 - End of LoadServerUrlFiles without Thread
+2023-01-10 15:20:31,593 [INFO] DetailPanel:339 - Set advertising image to /Users/harinit/STM32Cube/Repository//en.Prom_NBSTM32U50921.jpg
+2023-01-10 15:20:31,631 [INFO] MultiScanPanel:778 - Auto Refresh Data is not needed
+2023-01-10 15:21:04,364 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2023-01-10 15:21:04,378 [INFO] ApiDb:443 - Save user favorites file /Users/harinit/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-01-10 15:21:04,379 [INFO] ApiDb:447 - User favorites MCUs=[]
+2023-01-10 15:21:04,544 [INFO] ApiDb:443 - Save user favorites file /Users/harinit/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2023-01-10 15:21:04,555 [INFO] ApiDb:447 - User favorites Boards=[]
