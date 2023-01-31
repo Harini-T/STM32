@@ -31,15 +31,6 @@
 #include <sys/times.h>
 
 
-/* Variables */
-extern int __io_putchar(int ch) __attribute__((weak));
-extern int __io_getchar(void) __attribute__((weak));
-
-
-char *__env[1] = { 0 };
-char **environ = __env;
-
-
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //					Implementation of printf like feature using ARM Cortex M3/M4/ ITM functionality
 //					This function will not work for ARM Cortex M0/M0+
@@ -69,6 +60,16 @@ void ITM_SendChar(uint8_t ch)
 	//Write to ITM stimulus port0
 	ITM_STIMULUS_PORT0 = ch;
 }
+
+/* Variables */
+extern int __io_putchar(int ch) __attribute__((weak));
+extern int __io_getchar(void) __attribute__((weak));
+
+
+char *__env[1] = { 0 };
+char **environ = __env;
+
+
 
 /* Functions */
 void initialise_monitor_handles()
