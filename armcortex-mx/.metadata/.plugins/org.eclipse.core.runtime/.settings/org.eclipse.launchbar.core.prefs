@@ -10,3 +10,5 @@ org.eclipse.launchbar.core.descriptorType.default\:001_HelloWorld\ Debug/activeL
 org.eclipse.launchbar.core.descriptorType.default\:001_HelloWorld\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:003_operation_modes\ Debug/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:003_operation_modes\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:004_inline\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:004_inline\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
