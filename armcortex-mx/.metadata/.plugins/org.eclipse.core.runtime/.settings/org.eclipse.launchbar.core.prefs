@@ -8,6 +8,7 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_HelloWorld/activeLaunchMode
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_HelloWorld/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:006_t-bit/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:007_bit_banding/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008_stack/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:001_HelloWorld\ Debug/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:001_HelloWorld\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:003_operation_modes\ Debug/activeLaunchMode=debug
