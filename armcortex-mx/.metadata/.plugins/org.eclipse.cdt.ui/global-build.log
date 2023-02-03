@@ -1,14 +1,24 @@
-09:58:01 **** Incremental Build of configuration Debug for project 009_USART3_int_pend ****
+10:09:08 **** Build of configuration Debug for project 010_interrupt_priority ****
 make -j4 all 
-arm-none-eabi-size   009_USART3_int_pend.elf 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "010_interrupt_priority.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/harini/Desktop/Github-Local/STM32/armcortex-mx/010_interrupt_priority/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="010_interrupt_priority.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 010_interrupt_priority.elf
+ 
+arm-none-eabi-size   010_interrupt_priority.elf 
+arm-none-eabi-objdump -h -S  010_interrupt_priority.elf  > "010_interrupt_priority.list"
    text	   data	    bss	    dec	    hex	filename
-   3820	    108	   1588	   5516	   158c	009_USART3_int_pend.elf
+   4020	    120	   1584	   5724	   165c	010_interrupt_priority.elf
 Finished building: default.size.stdout
  
-09:58:22 **** Incremental Build of configuration Debug for project 009_USART3_int_pend ****
+Finished building: 010_interrupt_priority.list
+ 
+10:09:27 **** Incremental Build of configuration Debug for project 010_interrupt_priority ****
 make -j4 all 
-arm-none-eabi-size   009_USART3_int_pend.elf 
+arm-none-eabi-size   010_interrupt_priority.elf 
    text	   data	    bss	    dec	    hex	filename
-   3820	    108	   1588	   5516	   158c	009_USART3_int_pend.elf
+   4020	    120	   1584	   5724	   165c	010_interrupt_priority.elf
 Finished building: default.size.stdout
  

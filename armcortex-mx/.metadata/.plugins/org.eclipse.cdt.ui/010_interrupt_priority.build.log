@@ -1,0 +1,10 @@
+10:09:27 **** Incremental Build of configuration Debug for project 010_interrupt_priority ****
+make -j4 all 
+arm-none-eabi-size   010_interrupt_priority.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4020	    120	   1584	   5724	   165c	010_interrupt_priority.elf
+Finished building: default.size.stdout
+ 
+
+10:09:29 Build Finished. 0 errors, 0 warnings. (took 1s.217ms)
+

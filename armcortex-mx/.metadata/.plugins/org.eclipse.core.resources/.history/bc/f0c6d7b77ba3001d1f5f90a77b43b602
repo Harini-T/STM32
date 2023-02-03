@@ -25,6 +25,7 @@
 #define IRQNO_TIMER2  28
 #define IRQNO_I2C1    31
 
+#include<stdint.h>
 #include<stdio.h>
 
 /* NVIC register addresses. Refer to the processor generic guide */
