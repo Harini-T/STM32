@@ -1,21 +1,14 @@
-12:24:08 **** Incremental Build of configuration Debug for project 008_stack ****
+09:58:01 **** Incremental Build of configuration Debug for project 009_USART3_int_pend ****
 make -j4 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "008_stack.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/harini/Desktop/Github-Local/STM32/armcortex-mx/008_stack/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="008_stack.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 008_stack.elf
- 
-arm-none-eabi-size   008_stack.elf 
-arm-none-eabi-objdump -h -S  008_stack.elf  > "008_stack.list"
+arm-none-eabi-size   009_USART3_int_pend.elf 
    text	   data	    bss	    dec	    hex	filename
-   5668	    108	   1588	   7364	   1cc4	008_stack.elf
+   3820	    108	   1588	   5516	   158c	009_USART3_int_pend.elf
 Finished building: default.size.stdout
  
-Finished building: 008_stack.list
- 
-12:25:39 **** Incremental Build of configuration Debug for project 008_stack ****
+09:58:22 **** Incremental Build of configuration Debug for project 009_USART3_int_pend ****
 make -j4 all 
-arm-none-eabi-size   008_stack.elf 
+arm-none-eabi-size   009_USART3_int_pend.elf 
    text	   data	    bss	    dec	    hex	filename
-   5668	    108	   1588	   7364	   1cc4	008_stack.elf
+   3820	    108	   1588	   5516	   158c	009_USART3_int_pend.elf
 Finished building: default.size.stdout
  
