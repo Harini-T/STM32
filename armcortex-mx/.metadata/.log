@@ -6631,3 +6631,18 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.cdt.dsf 4 10001 2023-02-03 10:09:36.483
 !MESSAGE Target not available.
+!SESSION 2023-02-07 14:38:18.312 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-02-07 14:38:34.829
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-02-07 14:38:34.961
+!MESSAGE Log4j initialized with config file /home/harini/Desktop/Github-Local/STM32/armcortex-mx/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-02-07 14:38:49.133
+!MESSAGE Started RMI Server, listening on port 41337
