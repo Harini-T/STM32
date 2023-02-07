@@ -12,6 +12,7 @@
 #define DELAY_COUNT_250MS 		(250U  * DELAY_COUNT_1MS)
 #define DELAY_COUNT_125MS 		(125U  * DELAY_COUNT_1MS)
 
+#include<stdint.h>
 void led_init_all(void);
 void led_on(uint8_t led_no);
 void led_off(uint8_t led_no);

@@ -5,6 +5,7 @@
 #include<stdio.h>
 #include"main.h"
 #include "led.h"
+#include<stdint.h>
 
 /* task handler function prototypes */
 void task1_handler(void); //This is task1
